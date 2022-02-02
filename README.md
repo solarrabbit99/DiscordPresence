@@ -8,10 +8,12 @@ I developed and tested the application on MacOS, so yes, this is pretty much mea
 
 ## How to Use
 
-> **PLEASE DO NOT RUN IT WHEN DISCORD IS STARTING UP, YOU ARE WARNED**
+> **PLEASE DO NOT RUN THE EXECUTABLE WHEN DISCORD IS STARTING UP, YOU ARE WARNED**
 
-1. Download from release
-2. Double click it
-3. Done!
+1. Clone the repository
+2. (Recommended) Create a `build` folder in the project's directory
+3. Run `cmake ..` in the `build` directory
+4. In the same directory, run `make`
+5. An executable named `DiscordPresence` will be generated in the build directory
 
-This can be done with or without Discord running. Have fun!
+The executable can be run with or without Discord running. Have fun!
